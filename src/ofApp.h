@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxFaceTracker.h"
+#include "ofxPS3EyeGrabber.h"
 
 class ofApp : public ofBaseApp {
 public:

@@ -6,6 +6,7 @@ using namespace cv;
 void ofApp::setup() {
 	ofSetVerticalSync(true);
 //    cam.setDeviceID(1);
+    cam.setGrabber(std::make_shared<ofxPS3EyeGrabber>());
 	cam.setup(640, 480);
 	
 	tracker.setup();
