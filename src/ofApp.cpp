@@ -5,7 +5,7 @@ using namespace cv;
 
 void ofApp::setup() {
 	ofSetVerticalSync(true);
-    cam.setDeviceID(1);
+//    cam.setDeviceID(1);
 	cam.setup(640, 480);
 	
 	tracker.setup();
